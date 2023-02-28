@@ -30,11 +30,11 @@ public class Main{
 					
 					o.println("Result: " + result);
 					break;
-				case "fibonacciNumberFinder":
+				case "fibonacci":
 					first = Integer.parseInt(res[1]);
 					o.println("Result: " + c.fibonacciNumberFinder(first));
 					break;
-				case "intToBinaryNumber":
+				case "binary":
 					first = Integer.parseInt(res[1]);
 					o.println("Result: " + c.intToBinaryNumber(first));
 					break;
